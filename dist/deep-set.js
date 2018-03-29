@@ -1,0 +1,2 @@
+!function(e,t){"object"==typeof exports&&"undefined"!=typeof module?t(exports):"function"==typeof define&&define.amd?define(["exports"],t):t(e.flattenObject={})}(this,function(e){"use strict";e.deepSet=function(e,t,n,f){for(void 0===f&&(f=".");;){if("object"!=typeof e)return!1;var i=t.indexOf(f);if(i<0)return e[t]=n,!0;var o=t.slice(0,i),r=t.slice(i+1);if(null==e[o]){var c=r.split(f,1)[0];e[o]=c===""+parseInt(c,10)?[]:{}}e=e[o],t=r}}});
+//# sourceMappingURL=deep-set.js.map
