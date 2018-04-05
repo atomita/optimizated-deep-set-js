@@ -5,7 +5,7 @@ export default {
   output: {
     file: 'dist/deep-set.js',
     format: 'umd',
-    name: 'flattenObject',
+    name: 'optimizatedDeepSet',
     sourceMap: true,
   },
   plugins: [typescript()],
