@@ -5,7 +5,7 @@ export default {
   output: {
     file: 'dist/deep-set.js',
     format: 'umd',
-    name: 'optimizatedDeepSet',
+    name: 'deepSet',
     sourceMap: true,
   },
   plugins: [typescript()],
